@@ -219,7 +219,7 @@ def capsule
   sleep 3
   puts "Hmmm..."
   sleep 3
-  puts "Carry the four... Ah!"
+  puts "Carry the #{rand(10)}... Ah!"
   sleep 1
   puts "The volume of a capsule with the length of #{length} and radius of #{radius} is... #{volume} cubic meters!"
   puts "The equation you use to calculate this, is: pi r^2 ((4/3) r + a)"
