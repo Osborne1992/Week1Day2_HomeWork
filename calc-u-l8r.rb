@@ -117,7 +117,7 @@ def word_calc
 end
 
 def age_calc
-  puts "OK. Please enter your date of birth in DD/MM/YY format"
+  puts "OK. To calculate how old you are, we will need you to sign over your soul and pop in some information!"
   puts "Enter your Day of birth (1-31)"
   dob_day = gets.to_i
   puts "Enter your Month of birth (1-12)"
