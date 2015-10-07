@@ -124,7 +124,7 @@ def age_calc
   dob_month = gets.to_i
   puts "Enter your Year of birth"
   dob_year = gets.to_i
-  date = Time.new
+  date = Date.today
   age = date.year - dob_year
   age = age - 1 if (dob_month > date.month or (dob_month >= date.month and dob_day > date.day))
   puts "You are #{age}"
